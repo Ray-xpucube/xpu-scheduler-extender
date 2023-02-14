@@ -5,3 +5,15 @@ In Kubernetes, when you specify a Pod, you can optionally specify how much of ea
 xpuCUBE Device Plugin is the Kubernetes custom device interface, it defines the action of heterogeneous resources(vGPUs) to report and allocate.
 
 xpuCUBE Extended Scheduler helps Kubernetes scheduler allocate vGPU resources to Pods based on the configuration.
+
+## Prerequisites
+
+- Kubernetes 1.11+
+- golang 1.10+
+- NVIDIA drivers ~= 361.93
+- NVIDIA-DOCKER version > 2.0 (see how to [install](https://github.com/NVIDIA/nvidia-docker) and it's [prerequisites](https://github.com/nvidia/nvidia-docker/wiki/Installation-\(version-2.0\)#prerequisites))
+- Docker configured with NVIDIA as the [default runtime](https://github.com/NVIDIA/nvidia-docker/wiki/Advanced-topics#default-runtime).
+
+## Acknowledgments
+
+- This solution is based on [NVIDIA DOCKER](https://github.com/NVIDIA/nvidia-docker), and [Aliyun GPU Sharing](https://github.com/AliyunContainerService/gpushare-scheduler-extender) is our reference.
