@@ -10,7 +10,7 @@ xpuCUBE Extended Scheduler helps Kubernetes scheduler allocate vGPU resources to
 
 - Kubernetes 1.11+
 - golang 1.10+
-- NVIDIA drivers ~= 361.93
+- NVIDIA drivers ~= 440.x.x
 - NVIDIA-DOCKER version > 2.0 (see how to [install](https://github.com/NVIDIA/nvidia-docker) and it's [prerequisites](https://github.com/nvidia/nvidia-docker/wiki/Installation-\(version-2.0\)#prerequisites))
 - Docker configured with NVIDIA as the [default runtime](https://github.com/NVIDIA/nvidia-docker/wiki/Advanced-topics#default-runtime).
 
